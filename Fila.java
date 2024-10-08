@@ -14,7 +14,7 @@ public class Fila<T> {
         this.quantidade = 0; 
     }
 
-    public boolean estaVazia() {  // Renomeado para corresponder ao erro
+    public boolean estaVazia() {  
         return quantidade == 0; 
     }
 
@@ -22,7 +22,7 @@ public class Fila<T> {
         return quantidade == capacidade;
     }
 
-    public void enfileirar(T item) {  // Renomeado para corresponder ao erro
+    public void enfileirar(T item) {  
         if (cheia()) {
             System.out.println("Fila está cheia!");
             return;
@@ -32,7 +32,7 @@ public class Fila<T> {
         quantidade++;
     }
 
-    public T desenfileirar() {  // Renomeado para corresponder ao erro
+    public T desenfileirar() {  
         if (estaVazia()) {
             System.out.println("Fila está vazia!");
             return null;
