@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            String caminhoArquivo = "E:\\www\\FloodFill\\Imagem.jpg";
+            String caminhoArquivo = "E:\\www\\FloodFill\\FloodFillMain\\Imagem.jpg";
 
             BufferedImage imagemBase = ImageIO.read(new File(caminhoArquivo));
 
